@@ -8,20 +8,27 @@ body{
     max-width: 1536px;
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4, 1fr);
 }
 
-.span-2 {
-    grid-column: span 2;
+@media (min-width: 40em){
+    .span-2 {
+        grid-column: span 2;
+    }    
+    .container {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    .cards:last-child {
+        grid-column-start: 4;
+        /* grid-row-start: 1;
+        grid-row-end: span 2; */
+        grid-row: 1/3;
+        grid-row: 1/ span 2;
+    }
 }
+
 
 .cards {
-    height: 100px;
     padding: 10px 25px;
-    box-sizing: border-box;
     border-radius: 15px;
 }
 
-.cards:last-child {
-    
-}
