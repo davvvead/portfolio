@@ -4,23 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
   <title>Document</title>
+
+  <!-- Font awesome icon initialization -->
+  <script src="https://kit.fontawesome.com/29e1916129.js" crossorigin="anonymous"></script>
+  <!-- Font awesome icon initialization end -->
 </head>
 <body>
-  <!-- Navbar Beginning -->
-  <section class="nav">
-    <nav>
-      <div class="nav-p"> <!-- Navbar parent div -->
-        <div class="w-1/2 text-left">
-          <a href="" class="text-black no-underline active:text-black visited:text-black">Home</a>
-          <a href="" class="text-black no-underline active:text-black visited:text-black">Categories</a>
-        </div>
-        <div class="w-1/2">
-          a
-        </div>
-      </div>
-    </nav>
+    <!-- Navbar Beginning -->
+    <section class="nav shadow-md">
+      <nav>
+        <div class="container"> <!-- Navbar container div -->
+          <div class="nav-p flex"> <!-- Navbar parent div -->
+            <!-- 1st half of Nav elements -->
+            <div class="w-1/2 text-left py-3"> 
+              <div class="py-1">
+                <a href="" class="nav-link no-underline font-medium mr-3">Home</a>
+                <a href="" class="nav-link no-underline font-medium">Categories <i class="fa-solid fa-chevron-down text-sm"></i></a>
+              </div>
+            </div>
+            <!-- 1st half of Nav elements end -->
+
+            <!-- 2nd half of Nav elements -->
+            <div class="w-1/2 flex py-3">
+              <form class="ml-auto flex mr-3">
+                <input class="mr-3 border border-gray-200 rounded-md px-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="hover:text-white hover:bg-black border border-black bg-white text-black py-1 px-2 rounded-md" type="submit">Search</button>
+              </form>
+              <div class="iconss py-1">
+                <a href=""><i class="fa-solid fa-basket-shopping mr-3"></i></a>
+                <a href=""><i class="fa-solid fa-user mr-3"></i></a>
+                <a href=""><i class="fa-solid fa-chevron-down"></i></a>
+              </div>
+            </div>
+            <!-- 2nd half of Nav elements -->
+
+          </div> <!-- Navbar parent div end -->
+        </div> <!-- Navbar container div end -->
+      </nav>
+    </section>
     <!-- Navbar End -->
-  </section>
+
+    <!-- Hero Beginning -->
+    <section id="hero" class="w-full">
+      <div class="img w-full"> <!-- Hero image Beginning -->
+        <img src="../assets/img/hero/hero2.jpg" alt="" class="w-full">
+      </div>
+    </section>
+    <!-- Hero End -->
 </body>
 </html>
