@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 
-@font-face {font-family: "Franklin Gothic Book"; src: url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.eot"); src: url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.woff") format("woff"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.svg#Franklin Gothic Book") format("svg"); }
+/* @font-face {font-family: "Franklin Gothic Book"; src: url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.eot"); src: url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.woff") format("woff"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e130d119682ecb567748343bf7f263b0.svg#Franklin Gothic Book") format("svg"); } */
 
 nav {
   background: #333;
   filter: drop-shadow(0 4px 6px rgba(51, 51, 51, 0.4));
   font-size: 20px;
+  font-weight: 400;
   height: 80px;
 }
 nav li {

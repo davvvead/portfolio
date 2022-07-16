@@ -1,0 +1,82 @@
+/* General body style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+.container {
+    width: 80%;
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('georgia.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Georgia Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Bold'), url('georgiab.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Franklin Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Regular'), url('FranklinGothic.woff') format('woff');
+    }
+
+/* navbar beginning */
+.nav {
+    height: 80px;
+    background: #333;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    filter: drop-shadow(0 4px 6px rgba(51, 51, 51, 0.4));
+    font-family: 'franklin-gothic-book-regular', sans-serif;
+}
+.nav-links {
+    margin-left: auto;
+    width: auto;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.nav-links li {
+   margin: 25px 20px; 
+   list-style: none;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #EEE;
+}
+
+/* navbar end */
+
+/* main heading beginning */
+#main-heading {
+    margin-top: 20px;
+}
+#main-heading .container{
+    display: flex;
+    justify-content: center;
+    border-bottom: #333 2px solid;
+}
+/* main heading end */
+
+/* next heading beginning */
+#next-heading {
+    margin-top: 20px;
+    font-family: 'Georgia Bold';
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+/* next heading end */

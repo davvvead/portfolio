@@ -14,6 +14,7 @@ module.exports = {
       'dark': '#999999',
       'lighter': '#CCCCCC',
       'lightest': '#EEEEEE',
+      'crimson': '#990000' 
     },
     screens: {
       'sp' : '320px',
