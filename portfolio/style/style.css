@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: #EEE;
+}
 
 /* container */
 .container {
@@ -33,7 +36,7 @@
 /* navbar beginning */
 .nav {
     height: 80px;
-    background: #333;
+    background: #333 !IMPORTANT;
     width: 100%;
     margin: 0;
     font-size: 20px;
@@ -74,9 +77,41 @@
 /* next heading beginning */
 #next-heading {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Georgia Bold';
     font-size: 24px;
     color: #333;
     text-align: center;
 }
 /* next heading end */
+
+/* hero start */
+#hero .container {
+    display: flex;
+}
+.hero-child {
+    width: 33.333%;
+    padding: 0 20px 0 20px;
+}
+.no-pl {
+    padding-left: 0;
+}
+.br {
+    border-right: 1px #000 solid;
+}
+#hero h3 {
+    font-size: 32px;
+    font-family: 'Georgia Bold';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+#hero p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Regular';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+/* hero end */
