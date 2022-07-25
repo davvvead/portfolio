@@ -50,6 +50,8 @@ body {
     font-size: 20px;
     filter: drop-shadow(0 4px 6px rgba(51, 51, 51, 0.4));
     font-family: 'franklin_gothic_bookregular', sans-serif;
+    position: sticky;
+    top: 0;
 }
 .nav-links {
     margin-left: auto;
@@ -94,6 +96,9 @@ body {
 /* next heading end */
 
 /* hero start */
+#hero {
+    margin-bottom: 20px;
+}
 #hero .container {
     display: flex;
 }
@@ -134,7 +139,7 @@ body {
 #hero .col-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 256px;
+    margin-bottom: 40%;
 }
 #hero .col-button button {
     border: 2px #333 solid;
