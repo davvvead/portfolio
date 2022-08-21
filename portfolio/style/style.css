@@ -82,6 +82,19 @@ body {
     justify-content: center;
     border-bottom: #333 2px solid;
 }
+
+@media(max-width:769px){
+    #main-heading {
+        width: 100%;
+    }
+    #main-heading .container{
+        width: 90%;
+    }
+    #main-heading .container img{
+        width: 100%;
+    }
+}
+
 /* main heading end */
 
 /* next heading beginning */
@@ -107,7 +120,7 @@ body {
     padding: 0 20px 0 20px;
 }
 .no-pl {
-    padding-left: 0;
+    padding-left: 20px;
 }
 .br {
     border-right: 1px #000 solid;
@@ -116,7 +129,6 @@ body {
     font-size: 30px;
     font-family: 'georgiabold';
     text-align: center;
-    margin-top: 20px;
     margin-bottom: 20px;
     color: #333;
 }
@@ -141,6 +153,27 @@ body {
     justify-content: center;
     margin-bottom: 40%;
 }
+ @media(max-width:769px){
+    #hero .container {
+    display: flex;
+    flex-direction: column;}
+
+    .hero-child {
+        width: 100%;
+        padding: 0;
+    }
+
+    .br {
+        border-right: 0;
+    }
+}
+
+@media(max-width:1025px){
+    #hero .col-button {
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
 #hero .col-button button {
     border: 2px #333 solid;
     padding-top: 10px;
@@ -154,11 +187,15 @@ body {
     border: 2px #333 solid;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: #333;
-    color: #EEE;
+    /* background: #333; */
+    box-shadow: #333 5px 5px;
     width: 300px;
     font-size: 20px;
     font-family: 'franklin_gothic_bookregular';
+}
+#hero .col-button button:active {
+    border-bottom: 0;
+    border-right: 0;
 }
 #hero .col-logo {
     display: flex;
