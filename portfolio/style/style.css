@@ -156,22 +156,26 @@ body {
  @media(max-width:769px){
     #hero .container {
     display: flex;
-    flex-direction: column;}
-
+    flex-direction: column;
+    width: 90%;
+}
     .hero-child {
         width: 100%;
         padding: 0;
+        margin-bottom: 32px;
     }
-
     .br {
         border-right: 0;
+    }
+    #hero .col-button {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
 
 @media(max-width:1025px){
-    #hero .col-button {
-        margin-top: 20%;
-        margin-bottom: 20%;
+    .hero-heading {
+        border-bottom: 2px #000 solid;
     }
 }
 #hero .col-button button {
