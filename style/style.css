@@ -181,6 +181,15 @@ body {
     justify-content: center;
     margin-bottom: 40%;
 }
+@media(max-width:1025px){
+    #hero .col-text {
+        height: auto !important;
+        box-sizing: content-box;
+    }
+    #hero .col-button {
+        margin-bottom: 40px !important;
+    }
+}
 @media(max-width:476px){
     .hero-child {
         margin-bottom: 32px !important;
@@ -192,12 +201,7 @@ body {
     flex-direction: column;
     width: 80%;
 }
-@media(max-width:1025px){
-    #hero .col-text {
-        height: 400px;
-        box-sizing: content-box;
-    }
-}
+
     .hero-child {
         width: 100%;
         padding: 0;
@@ -224,7 +228,7 @@ body {
         border-bottom: 2px #000 solid;
     }
     #hero .col-button button {
-        margin-top: 60px !important;
+        margin-top: 0px !important;
         margin-bottom: 0px;
     }
 }
