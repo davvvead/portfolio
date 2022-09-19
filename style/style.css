@@ -83,6 +83,12 @@ body {
     border-bottom: #333 2px solid;
 }
 
+@media(max-width:1025px){
+    #main-heading .container img{
+        width: 50%;
+    }
+}
+
 @media(max-width:769px){
     #main-heading {
         width: 100%;
@@ -112,9 +118,19 @@ body {
     color: #333;
     text-align: center;
 }
+@media(max-width:1025px){
+    #next-heading h2{
+        font-size: 1.2em;
+    }
+}
+@media(max-width:769px){
+    #next-heading h2{
+        font-size: 1.2em;
+    }
+}
 @media(max-width:476px){
     #next-heading h2{
-        font-size: 1.25em;
+        font-size: 1.04em;
     }
 }
 /* next heading end */
@@ -125,11 +141,6 @@ body {
 }
 #hero .container {
     display: flex;
-}
-@media(max-width:769px){
-    #hero .container {
-        width: 80%;
-    }
 }
 @media(max-width:476px){
     #hero .container {
@@ -153,8 +164,15 @@ body {
     margin-bottom: 20px;
     color: #333;
 }
-@media(max-width:769px){
+@media(max-width:1025px){
     #hero h3 {
+        font-size: 24px !important;
+        font-weight: 100 !important;
+    }
+}
+@media(max-width:835px){
+    #hero h3 {
+        font-size: 28px !important;
         font-weight: 100 !important;
     }
 }
@@ -168,7 +186,7 @@ body {
 #hero img {
     width: 100%;
 }
-@media(max-width:769px) {
+@media(max-width:835px) {
     #hero .hero-child img {
         width: 60%;
         box-sizing: border-box;
@@ -200,13 +218,21 @@ body {
     #hero .col-button {
         margin-bottom: 40px !important;
     }
+    #hero .col-button button {
+        font-size: 18px !important;
+    }
+}
+@media(max-width:835px){
+    #hero .col-button button {
+        font-size: 20px !important;
+    }
 }
 @media(max-width:476px){
     .hero-child {
         margin-bottom: 32px !important;
     }
 }
- @media(max-width:769px){
+ @media(max-width:835px){
     #hero .container {
     display: flex;
     flex-direction: column;
@@ -243,7 +269,7 @@ body {
         margin-bottom: 0px;
     }
 }
-@media(max-width:769px){
+@media(max-width:835px){
     #hero .col-button {
         margin-top: 20px !important;
         margin-bottom: 40px !important;
@@ -276,8 +302,11 @@ body {
         width: 200px;
     }
 }
-@media(max-width: 769px) {
+@media(max-width: 835px) {
     #hero .col-button button {
+        width: 300px;
+    }
+    #hero .col-button button:hover {
         width: 300px;
     }
 }
