@@ -318,4 +318,9 @@ body {
     height: 52px;
     margin: 0 4px;
 }
+@media(max-width: 769px){
+    #hero .col-logo img{
+        width: auto;
+    }
+}
 /* hero end */
