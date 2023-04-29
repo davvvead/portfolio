@@ -30,6 +30,17 @@ a:visited {
     margin: 0 auto;
 }
 
+.hide {
+    display: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+
 @font-face {
     font-family: 'georgiaregular';
     src: url('georgia_regular_font-webfont.woff2') format('woff2'),
@@ -57,10 +68,15 @@ a:visited {
 
 }
 
+p {
+    font-family: 'franklin_gothic_bookregular';
+    font-size: 20px;
+}
+
 /* navbar beginning */
 .nav {
     height: 80px;
-    background: #333 !IMPORTANT;
+    background: #333;
     width: 100%;
     margin: 0;
     font-size: 20px;
@@ -340,3 +356,32 @@ a:visited {
     }
 }
 /* hero end */
+
+/* Frontend Section */
+#frontend-section h3 {
+    font-size: 30px;
+    font-family: 'georgiabold';
+    /* text-align: center; */
+    margin-bottom: 20px;
+    color: #333;
+    /* border-bottom: #333 1px solid; */
+}
+
+#frontend-section h2 {
+    font-size: 40.5px;
+    font-family: 'georgiabold';
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #333;
+    border-bottom: #333 1px solid;
+}
+
+.graphic-img {
+    float: left;
+    margin-right: 40px;
+}
+
+
+
+/* Frontend Section End */
