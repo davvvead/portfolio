@@ -60,6 +60,7 @@ a:visited {
         url('georgia_regular_font-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 
 }
 
@@ -69,7 +70,7 @@ a:visited {
          url('georgia_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    font-display: fallback;
 }
 
 @font-face {
@@ -78,7 +79,7 @@ a:visited {
         url('franklin_gothic_book_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    font-display: fallback;
 }
 
 p {
