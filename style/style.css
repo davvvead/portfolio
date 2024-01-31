@@ -23,6 +23,20 @@ a:visited {
     color: #000;
 }
 
+/* margin */
+.ms-auto {
+    margin-left: auto;
+}
+
+.me-auto {
+    margin-right: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* container */
 .container {
     width: 80%;
@@ -98,6 +112,7 @@ p {
     font-family: 'franklin_gothic_bookregular', sans-serif;
     position: sticky;
     top: 0;
+    z-index: 999999;
 }
 .nav-links {
     margin-left: auto;
@@ -213,6 +228,24 @@ p {
 }
 
 /* main heading end */
+
+/* time heading beginning */
+#time-heading .container {
+    border-bottom: 2px #000 solid;
+    padding: 10px 0;
+}
+.volume {
+    margin-right: 20px;
+}
+#time-heading .number {
+    margin-right: 20px;
+}
+
+#day {
+    margin-right: 4px;
+}
+
+/* time heading end */
 
 /* next heading beginning */
 #next-heading {
@@ -544,59 +577,75 @@ p {
 }
 
 #art-img-1 {
-    background-image: url(../assets/img/project.png);
+    background-image: url(../assets/img/project_color.png);
+    filter: grayscale(100%);
 }
 #art-img-1:hover {
     background-image: url(../assets/img/project_color.png);
+    filter: grayscale(0);
 }
 
 #art-img-2 {
-    background-image: url(../assets/img/project2.png);
+    background-image: url(../assets/img/project2_color.png);
+    filter: grayscale(100%);
 }
 #art-img-2:hover {
     background-image: url(../assets/img/project2_color.png);
+    filter: grayscale(0);
 }
 
 #art-img-3 {
-    background-image: url(../assets/img/project3.png);
+    background-image: url(../assets/img/project3_color.png);
+    filter: grayscale(100%);
 }
 #art-img-3:hover {
     background-image: url(../assets/img/project3_color.png);
+    filter: grayscale(0);
 }
 
 #ui-1 {
-    background-image: url(../assets/img/xd1.png);
+    background-image: url(../assets/img/xd1_color.png);
+    filter: grayscale(100%);
 }
 #ui-1:hover {
     background-image: url(../assets/img/xd1_color.png);
+    filter: grayscale(0);
 }
 
 #ui-2 {
-    background-image: url(../assets/img/xd2.png);
+    background-image: url(../assets/img/xd2_color.png);
+    filter: grayscale(100%);
 }
 #ui-2:hover {
     background-image: url(../assets/img/xd2_color.png);
+    filter: grayscale(0);
 }
 
 #ui-3 {
-    background-image: url(../assets/img/fg.png);
+    background-image: url(../assets/img/fg_color.png);
+    filter: grayscale(100%);
 }
 #ui-3:hover {
     background-image: url(../assets/img/fg_color.png);
+    filter: grayscale(0);
 }
 
 #yt {
-    background-image: url(../assets/img/yt.png);
+    background-image: url(../assets/img/yt_color.png);
+    filter: grayscale(100%);
 }
 #yt:hover {
     background-image: url(../assets/img/yt_color.png);
+    filter: grayscale(0);
 }
 
 #bcss {
-    background-image: url(../assets/img/basecss.png);
+    background-image: url(../assets/img/basecss_color.png);
+    filter: grayscale(100%);
 }
 #bcss:hover {
     background-image: url(../assets/img/basecss_color.png);
+    filter: grayscale(0);
 }
 
 /* Frontend Section End */
